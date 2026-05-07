@@ -1,0 +1,21 @@
+{
+  "add-field": [
+    { "name": "event_id",       "type": "pint",    "stored": true, "indexed": true },
+    { "name": "title",          "type": "text_it", "stored": true, "indexed": true },
+    { "name": "original_title", "type": "text_it", "stored": true, "indexed": true },
+    { "name": "director",       "type": "text_it", "stored": true, "indexed": true },
+    { "name": "actors",         "type": "text_it", "stored": true, "indexed": true },
+    { "name": "description",    "type": "text_it", "stored": true, "indexed": true },
+    { "name": "category",       "type": "string",  "stored": true, "indexed": true },
+    { "name": "picture",        "type": "string",  "stored": true, "indexed": false },
+    { "name": "year",           "type": "string",  "stored": true, "indexed": false },
+    { "name": "local_id",       "type": "pint",    "stored": true, "indexed": true },
+    { "name": "cinema_name",    "type": "text_it", "stored": true, "indexed": true },
+    { "name": "cinema_address", "type": "string",  "stored": true, "indexed": false },
+    { "name": "cinema_town",    "type": "string",  "stored": true, "indexed": true },
+    { "name": "cinema_lat",     "type": "pdouble", "stored": true, "indexed": true },
+    { "name": "cinema_lon",     "type": "pdouble", "stored": true, "indexed": true },
+    { "name": "days_json",      "type": "string",  "stored": true, "indexed": false, "docValues": false }
+  ]
+}
+

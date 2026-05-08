@@ -15,7 +15,7 @@
     { "name": "cinema_town",    "type": "string",  "stored": true, "indexed": true },
     { "name": "cinema_lat",     "type": "pdouble", "stored": true, "indexed": true },
     { "name": "cinema_lon",     "type": "pdouble", "stored": true, "indexed": true },
-    { "name": "days_json",      "type": "string",  "stored": true, "indexed": false, "docValues": false }
+    { "name": "days_json",      "type": "string",  "stored": true, "indexed": false, "docValues": false },
+    { "name": "properties",     "type": "string",  "stored": true, "indexed": true,  "multiValued": true }
   ]
 }
-
